@@ -1,0 +1,10 @@
+{
+  "name": "sfdigitalservices/notification-php-sdk",
+  "description": "SFDS Notification Service PHP SDK",
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+        "psr-4": {
+            "SFDSNotification\\": "src/"
+        }
+    }
+}

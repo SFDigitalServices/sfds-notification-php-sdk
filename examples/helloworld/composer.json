@@ -1,0 +1,13 @@
+{
+  "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/SFDigitalServices/sfds-notification-php-sdk.git"
+      }
+    ],
+  "require": {
+    "vlucas/phpdotenv": "~2.0",
+    "sfdigitalservices/notification-php-sdk": "dev-master"
+  }
+}
+

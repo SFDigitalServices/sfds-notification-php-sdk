@@ -4,6 +4,22 @@
 1. SFDS API Key
 2. API call to be made within the City Network
 
+### Install Package
+Add SFDS Notification to your *composer.json*
+```
+{
+  "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/SFDigitalServices/sfds-notification-php-sdk.git"
+      }
+    ],
+  "require": {
+    "sfdigitalservices/notification-php-sdk": "dev-master"
+  }
+}
+```
+
 ### Example Usage
 ```
 <?php
@@ -19,7 +35,7 @@ $message = array(
       )
   ),
   'subject' => 'example subject',
-  'from_email' => 'message.from_email@example.com',
+  'from_email' => 'from_email@example.com',
   'from_name' => 'Example Name',
   'body_text' => 'Example text content',
   'body_html' => '<p>Example HTML content</p>',
@@ -28,3 +44,6 @@ $message = array(
 $hello->mail($message);
 
 ``` 
+
+### How to contribute / Roadmap
+If you are interested in contributing or would like to know the future direction of this project, please take a look at our [open issues](https://github.com/SFDigitalServices/sfds-notification-php-sdk/issues) and [pull requests](https://github.com/SFDigitalServices/sfds-notification-php-sdk/pulls). We would love to hear your feedback.

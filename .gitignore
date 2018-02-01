@@ -2,7 +2,6 @@ dist/
 composer.lock
 vendor
 .env
-/examples
 
 # OS generated files #
 ######################
